@@ -9,6 +9,7 @@ import UIKit
 
 class ContactsTableViewCell: UITableViewCell {
 
+    //OUTLETS
     @IBOutlet weak var personNameLabel: UILabel!
     @IBOutlet weak var personDetailLabel: UILabel!
     

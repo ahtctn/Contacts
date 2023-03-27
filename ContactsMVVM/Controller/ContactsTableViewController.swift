@@ -9,6 +9,7 @@ import UIKit
 
 class ContactsTableViewController: UITableViewController {
 
+    //PROPERTIES
     var viewModel: ContactViewModel? = ContactViewModel()
     
     override func viewDidLoad() {
@@ -16,6 +17,7 @@ class ContactsTableViewController: UITableViewController {
         authorization()
     }
     
+    //FUNCTIONS
     private func authorization() {
         self.tableView.delegate = self
         self.tableView.dataSource = self
